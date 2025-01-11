@@ -23,12 +23,7 @@ struct DirectoryView: View {
                 
                 LazyHStack(spacing: 25) {
                     ForEach(recipes, id: \.self) { recipe in
-                        NavigationLink {
-                            Text(recipe.name)
-                        } label: {
-                            DirectoryCellView(recipe: recipe)
-                        }
-                        .buttonStyle(EmptyButtonStyle())
+                        DirectoryCellView(recipe: recipe)
                     }
                 }
             }

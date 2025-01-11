@@ -66,6 +66,7 @@ struct FlavorTextView: View {
                     Text("VIEW RECIPE")
                         .foregroundColor(.white)
                 }
+                .buttonStyle(EmptyButtonStyle())
             }
             .padding(EdgeInsets(top: 15, leading: 0, bottom: 5, trailing: 0))
         }
