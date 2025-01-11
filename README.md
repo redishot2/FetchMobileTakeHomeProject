@@ -17,7 +17,7 @@ About 6 hours. I started with the networking and codable classes so I could have
 UI is my favorite so I could have kept going on a lot of it. Rows for all the cuisine types. Scrollview paging with animations. I had to limit myself to just doing what the project asked for so it wouldn't get too large. 
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
-The caching. I outsourced the image networking to a dependency to save time. This had a downside of obfuscating the network error handling so I only came up with 2 cases (bad url and couldn't decode) to be displayed to the user.
+The sorting feature. I added it on a whim but it doesn't do too much apart from some very basic sorting functions. It's good for testing the reset functionality on the scrollview.
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
-Don't forget to try out the sort function in the top right corner. 
+I added some filler UI to beef up the flavor text on the cards. Cook time, star rating, and servings are hard-coded. 
